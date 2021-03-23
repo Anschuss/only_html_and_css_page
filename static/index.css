@@ -1,0 +1,207 @@
+html {
+    position:relative;
+    min-height:100%;
+}
+
+html, body {
+    margin:0;
+    padding:0;
+}
+
+body {
+    font-family: "Roboto";
+    font-size: 29px;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+/* heading */
+
+header {
+    width: 100%;
+    position: fixed;
+    height: 88px;
+    left: 0;
+    top: 0;
+    background: #007765;
+}
+
+
+nav {
+    display: inline-block;
+    position: relative;
+    float: left;
+    left: 68%;
+}
+
+#head {
+    position: relative;
+
+}
+
+#logo {
+    display: inline-block;
+    padding: 20px;
+    position: relative;
+    float: right;
+    right: 79%;
+}
+
+#logo img {
+    width: 184px;
+    height: 45px;
+}
+
+#nav {
+    font-size: 24px;
+}
+
+#nav li {
+    display: inline-block;
+    color: #ffff;
+}
+
+#nav li>a{
+    color: #ffff;
+    transition: 0.3s;
+}
+
+#nav li>a:hover {
+    color: #15afd0;
+    transition: 0.3s;
+}
+
+/* main */
+#main {
+    margin-top: 85px;
+}
+
+.heading {
+    max-height: 403px;
+    margin-bottom: 48px;
+}
+
+.heading h1 {
+    color: #ffff;
+    text-align: center;
+}
+
+#piper_net_is_hear {
+    background-image: url("image/4UUlq-QaVWc.jpg");
+    padding-top: 110px;
+    padding-bottom: 110px;
+}
+
+#Were_in_this_together  {
+    background-image: url("image/xjnoQFxuFfs.jpg");
+    padding-top: 56px;
+    padding-bottom: 56px;
+
+}
+
+.content h2 {
+    color: #007765;
+    margin-bottom: 16px;
+    padding-top: 48px;
+}
+
+.content p {
+    text-align: justify;
+}
+
+.text {
+    padding-left: 32%;
+}
+
+
+
+.content {
+    text-align: center;
+    margin-bottom: 92px;
+}
+
+.content img {
+    float: left;
+    margin-right: 48px;
+    width: 115px;
+    height: 115px;
+}
+
+#team {
+    text-align: center;
+    margin-bottom: 56px;
+}
+
+.team {
+    margin-bottom: 50px;
+}
+
+.team img {
+    padding-left: 20%;
+    width: 168px;
+    height: 168px;
+    padding-bottom: 12px;
+}
+
+
+.team li {
+    display: inline-block;
+    width: 290px;
+    height: 283px;
+    text-align: center;
+}
+
+.team .center {
+    padding-left: 212px;
+    padding-right: 212px;
+}
+
+.name {
+    position: relative;
+}
+
+.name h4 {
+    font-size: 24px;
+    color: #007765;
+}
+
+.name p {
+    font-size: 18px;
+    position: relative;
+    bottom: 70px;
+    left: 28%;
+
+}
+
+.clear {
+    clear:both;
+    margin-bottom: 100px;
+}
+
+/* footer */
+
+#footer {
+    position: absolute;
+    left:0px;
+    bottom:0px;
+    height:120px;
+    width:100%;
+    background-color: #333333;
+}
+
+#footer h6 {
+    text-align: center;
+    font-size: 16px;
+    color: aliceblue;
+    line-height: 21px;
+    letter-spacing: 0em;
+    font-weight: 400;
+    margin-bottom: 0;
+}
