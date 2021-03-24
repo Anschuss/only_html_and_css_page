@@ -85,6 +85,7 @@ nav {
 
 .heading {
     max-height: 403px;
+    box-sizing: border-box;
     margin-bottom: 48px;
 }
 
@@ -95,12 +96,16 @@ nav {
 
 #piper_net_is_hear {
     background-image: url("image/4UUlq-QaVWc.jpg");
+    background-size: cover;
+    background-position: center center;
     padding-top: 110px;
     padding-bottom: 110px;
 }
 
 #Were_in_this_together  {
     background-image: url("image/xjnoQFxuFfs.jpg");
+    background-size: cover;
+    background-position: center center;
     padding-top: 56px;
     padding-bottom: 56px;
 
